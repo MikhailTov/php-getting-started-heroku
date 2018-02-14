@@ -16,7 +16,7 @@ Hello
     <p>radio: <?php echo htmlspecialchars($_GET['text']); ?></p>
     <p>radio: <?php echo htmlspecialchars($_GET['area']); ?></p>
     <p>radio: <?php echo htmlspecialchars($_GET['color']); ?></p>
-  <span style="background:<?php echo htmlspecialchars($_GET['color']?> font-size:2em;">&nbsp&nbsp&nbsp&nbsp</span></p>
+  <span style="background:<?php echo htmlspecialchars($_GET['color']?> font-size:2em;"></span></p>
 
 
 
