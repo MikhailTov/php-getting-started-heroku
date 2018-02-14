@@ -16,6 +16,7 @@ Hello
     <p>text: <?php echo htmlspecialchars($_GET['text']); ?></p>
     <p>area: <?php echo htmlspecialchars($_GET['area']); ?></p>
     <p>color: <?php echo htmlspecialchars($_GET['color']); ?></p>
+  <span style background:<?php echo htmlspecialchars($_GET['color'] ?>; font-size:2em;">&nbsp&nbsp&nbsp&nbsp</span></p>
   
 
     <p>Try again? <a href="/index.php">Yes!</a></p>
