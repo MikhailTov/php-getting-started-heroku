@@ -15,6 +15,7 @@ Hello
     <p>radio: <?php echo htmlspecialchars($_GET['colr']); ?></p>
     <p>radio: <?php echo htmlspecialchars($_GET['text']); ?></p>
     <p>radio: <?php echo htmlspecialchars($_GET['area']); ?></p>
+    <p>radio: <?php echo htmlspecialchars($_GET['color']); ?></p><span style background:<?php echo htmlspecialchars($_GET['color']?> font-size:2em;">&nbsp&nbsp&nbsp&nbsp</span></p>
 
 
 
@@ -31,13 +32,13 @@ Hello
       <input id="my-radio-yes" name="radio" type="radio" required value="Yes">
       <label for="my-radio-no">radio No: </label>
       <input id="my-radio-no" name="radio" type="radio" required value="No">
+      <br>
       
       <label for="color">выбор цвета: </label>
       <input id="color" name="color" type="color" required value="background">
+      <br>
 
-    <br>
-
-    Имя:<input type="text" name="name">
+       Имя:<input type="text" name="name">
   
     <br>
     Введите коментарии:
